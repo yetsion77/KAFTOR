@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/KAFTOR/static/css/main.93435c93.css",
+    "main.js": "/KAFTOR/static/js/main.21cea231.js",
+    "index.html": "/KAFTOR/index.html",
+    "main.93435c93.css.map": "/KAFTOR/static/css/main.93435c93.css.map",
+    "main.21cea231.js.map": "/KAFTOR/static/js/main.21cea231.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.93435c93.css",
+    "static/js/main.21cea231.js"
+  ]
+}

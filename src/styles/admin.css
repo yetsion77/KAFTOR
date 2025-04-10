@@ -1,0 +1,55 @@
+.board-creator-container,
+.boards-list-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.phrases-container {
+  margin: 1.5rem 0;
+}
+
+.boards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.board-item {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.board-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.board-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1rem;
+}
+
+.phrases-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.5rem;
+  margin: 1.5rem 0;
+}
+
+.phrase-item {
+  padding: 0.75rem;
+  background-color: rgba(74, 144, 226, 0.1);
+  border-radius: 8px;
+}
+
+.summary-container {
+  margin: 2rem 0;
+}
+
+@media (max-width: 768px) {
+  .boards-grid {
+    grid-template-columns: 1fr;
+  }
+} 
